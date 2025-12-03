@@ -1,6 +1,11 @@
 # WiFo
-B. Liu, S. Gao, X. Liu, X. Cheng, and L. Yang, "WiFo: Wireless Foundation Model for Channel Prediction," arXiv preprint arXiv:2412.08908. [[paper]](https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4349-0)
+B. Liu, S. Gao, X. Liu, X. Cheng, L. Yang. “WiFo: Wireless Foundation Model for Channel Prediction. ” SCIENCE CHINA Information Sciences, June 2025, 68(6): 162302. 
 <br>
+
+## 📢 Latest Updates
+
+🔥🔥🔥 Last Updated on 2025.11.27 🔥🔥🔥 
+- [2025.11.28] We released all the pre-training datasets as open source at [[Pretraining Dataset]](https://disk.pku.edu.cn/link/AA003E48DD5EF343C18ACD92ACF3BB8E3E).
 
 ## Dependencies and Installation
 - Python 3.9 (Recommend to use [Anaconda](https://www.anaconda.com/))
@@ -11,6 +16,7 @@ B. Liu, S. Gao, X. Liu, X. Cheng, and L. Yang, "WiFo: Wireless Foundation Model 
 
 ## Dataset Preparation
 The dataset used for inference is available in [[Testing Dataset]](https://huggingface.co/datasets/liuboxun/WiFo-dataset).
+The dataset used for pre-training is available in [[Pretraining Dataset]](https://disk.pku.edu.cn/link/AA003E48DD5EF343C18ACD92ACF3BB8E3E)
 
 
 ## Get Started
@@ -30,10 +36,14 @@ python main.py --device_id 1 --size base --mask_strategy_random none --mask_stra
 ## Citation
 If you find this repo helpful, please cite our paper.
 ```latex
-@article{liu2024wifo,
-  title={WiFo: Wireless Foundation Model for Channel Prediction},
-  author={Liu, Boxun and Gao, Shijian and Liu, Xuanyu and Cheng, Xiang and Yang, Liuqing},
-  journal={arXiv preprint arXiv:2412.08908},
-  year={2024}
+@article{liu2025wifo,
+  author  = {Liu, Boxun and Gao, Shijian and Liu, Xuanyu and Cheng, Xiang and Yang, Liuqing},
+  title   = {{WiFo: Wireless Foundation Model for Channel Prediction}},
+  journal = {Sci. China Inf. Sci.},
+  volume  = {68},
+  pages   = {162302},
+  year    = {2025},
+  month   = {May},
+  doi     = {10.1007/s11432-025-4349-0}
 }
 ```
